@@ -1,0 +1,28 @@
+.nav-title {
+    background-color: rgb(127, 229, 255);
+    color: black;
+    padding: 0px 10px 0px 50px;
+    font-size: 25px;
+    align-items: center; 
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0px !important;
+}
+
+.nav-item a {
+    color: rgb(127, 229, 255) !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.jumbotron {
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h1 {
+    color: rgb(127, 229, 255);
+}
