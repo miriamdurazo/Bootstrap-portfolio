@@ -43,15 +43,21 @@
     background-image: url("../images/02-hero-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 60vh;
 }
 
-.jumbotron h1 {
+.jumbo-title-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.display-4 {
     background-color: rgb(127, 229, 255);
     width: fit-content;
     padding: 0.25rem;
     color: var(--dark-blue);
     font-size: 2rem;
-    align-items: center;
 }
 
 .container-fluid {
