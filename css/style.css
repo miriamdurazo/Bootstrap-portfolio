@@ -65,6 +65,8 @@
 }
 .section-heading {
     color: var(--dark-blue);
+    display: flex;
+    justify-content: flex-end;
 }
 
 .side-heading {
