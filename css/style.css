@@ -1,3 +1,7 @@
+*  {
+    font-family: 'Anybody', cursive;
+}
+
 .nav-title {
     background-color: rgb(127, 229, 255);
     color: black;
@@ -24,5 +28,8 @@
 }
 
 .jumbotron h1 {
-    color: rgb(127, 229, 255);
+    background-color: rgb(127, 229, 255);
+    color: black;
+    font-size: 2rem;
+    align-items: center;
 }
