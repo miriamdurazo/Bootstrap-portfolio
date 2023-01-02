@@ -2,9 +2,17 @@
     font-family: 'Anybody', cursive;
 }
 
+:root {
+    /* --main-color: rgb(73, 21, 196); */
+    --purple: #4a3c8a;
+    --dark-blue: rgb(27, 27, 122);
+    --light: rgb(187, 223, 255);
+    --bckgrnd-col: rgba(102, 184, 216, 0.705);
+}
+
 .nav-title {
     background-color: rgb(127, 229, 255);
-    color: black;
+    color: var(--dark-blue);
     padding: 0px 10px 0px 50px;
     font-size: 25px;
     align-items: center; 
@@ -29,7 +37,38 @@
 
 .jumbotron h1 {
     background-color: rgb(127, 229, 255);
-    color: black;
+    width: fit-content;
+    padding: 0.25rem;
+    color: var(--dark-blue);
     font-size: 2rem;
     align-items: center;
+}
+
+.row {
+    margin-bottom: 2rem;
+}
+.section-heading {
+    color: var(--dark-blue);
+}
+
+.side-heading {
+    border-right: 0.4rem solid var(--dark-blue);
+}
+
+.cardContainer {
+    margin-bottom: 1rem;
+}
+
+.card-img-overlay {
+    border: 5px solid var(--purple);
+}
+
+.card-label {
+    background-color: var(--purple);
+    width: fit-content;
+    color: var(--light);
+    padding: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
 }
